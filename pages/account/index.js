@@ -1,5 +1,5 @@
-import styles from '../styles/pages/account.module.css'
-import BottomNav from '../components/BottomNav'
+import styles from '../../styles/pages/Account.module.css'
+import BottomNav from '../../components/BottomNav'
 
 import { MdKeyboardArrowRight, MdAccountCircle } from 'react-icons/md'
 import { BiHealth } from 'react-icons/bi'

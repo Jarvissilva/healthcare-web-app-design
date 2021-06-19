@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { BiArrowBack } from 'react-icons/bi'
 
 const Register = () => {
+    const [formData, setFormData] = useState()
     const steps = {
         one: { title: 'Enter Healthcare Details', name: 1 },
         two: { title: 'Enter Healthcare Address', name: 2 },
