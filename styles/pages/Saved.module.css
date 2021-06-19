@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 8px;
+}
+.hTitle {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-start;
+}
+.hTitle h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.hMenu {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+}
+.savedSec {
+  padding: 15px 15px;
+}

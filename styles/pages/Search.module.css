@@ -1,0 +1,119 @@
+.searchBox {
+  height: 80px;
+  padding: 15px 15px;
+  position: sticky;
+  top: 0;
+  /* background: #fff; */
+  z-index: 2;
+}
+.searchBox form {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 7px;
+  /* box-shadow: 0px 0px 5px rgba(0,0,0,0.3); */
+  border: 1px solid var(--grey-color);
+}
+.searchBox form input {
+  width: 72%;
+  height: 100%;
+  border: none;
+  padding-top: 3px;
+  background: #fff;
+  /* border-radius: 10px; */
+}
+.searchBox form:hover,
+.searchBox form:active,
+.searchBox form:focus {
+  border: 1px solid rgb(39, 178, 233);
+}
+.searchBox form input::placeholder {
+  font-size: 1rem;
+}
+.searchBox .sbIcon {
+  width: 13%;
+  height: 100%;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+.searchBox .filterIcon {
+  width: 15%;
+  height: 100%;
+  border-left: 1px solid var(--grey-color);
+  border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.categorySec {
+  height: 50px;
+  padding: 5px 0px;
+  padding-left: 15px;
+  justify-content: flex-start;
+  overflow-x: auto;
+  overflow-y: hidden;
+  z-index: 2;
+  background: #fff;
+}
+.categorySec::-webkit-scrollbar {
+  display: none;
+}
+.categoryBox {
+  max-width: 100%;
+  height: 37px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 0 15px;
+}
+.categoryBox p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.categoryBox:nth-last-of-type() {
+  margin-right: 10px;
+}
+.activeCategory {
+  background: var(--primary-color);
+}
+.activeCategory p {
+  color: #fff;
+  font-weight: 500;
+}
+.spacing {
+  min-width: 15px;
+  height: 100%;
+}
+.cardSec {
+  padding: 10px 15px;
+}
+.searchTerms {
+  width: 100%;
+  height: 100%;
+  padding: 0px 15px;
+}
+.searchTerm {
+  width: 100%;
+  height: 50px;
+}
+.searchTerm:hover,
+.searchTerm:active,
+.searchTerm:focus {
+  background: #eeeeee;
+  border-radius: var(--border-radius);
+  transition: all 0.2s;
+}
+.stIcon {
+  width: 15%;
+  height: 100%;
+  justify-content: flex-start;
+  padding-left: 5px;
+}
+.stText {
+  width: 85%;
+  height: 100%;
+  justify-content: flex-start;
+}
+.stText p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+}

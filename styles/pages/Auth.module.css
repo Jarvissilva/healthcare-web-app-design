@@ -1,0 +1,165 @@
+.logo {
+  width: 100%;
+  height: 260px;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+.logo h1 {
+  font-size: 3.5rem;
+  font-family: var(--cursive-font);
+}
+.loginLogo {
+  height: 280px;
+  padding-bottom: 0px;
+}
+.loginForm {
+  margin-top: 50px;
+}
+.form {
+  width: 100%;
+  height: 100%;
+}
+.form form {
+  width: 100%;
+  height: 100%;
+}
+.inputBox {
+  width: 85%;
+  height: 50px;
+  border: 1px solid var(--grey-color);
+  margin-bottom: 20px;
+}
+.inputBox:hover,
+.inputBox:active,
+.inputBox:focus {
+  border: 1px solid rgb(39, 178, 233);
+}
+.inputBox input {
+  width: 87%;
+  height: 100%;
+  border: none;
+  padding-top: 3px;
+}
+.inputBox input::placeholder {
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+}
+.inputIcon {
+  width: 13%;
+  height: 100%;
+}
+.submitBtn {
+  width: 85%;
+  height: 50px;
+}
+.submitBtn button {
+  width: 97%;
+  height: 100%;
+  background: rgb(39, 178, 233);
+  color: #fff;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 60px;
+  box-shadow: var(--box-shadow);
+}
+.bottomText {
+  width: 85%;
+  height: 50px;
+}
+.bottomText p {
+  font-weight: 400;
+  font-size: 0.9.5rem;
+}
+.hcLogin {
+  height: 100px;
+  padding: 0 30px;
+}
+
+/* HEALTH CARE REGISTER DESIGN */
+.hcHeader {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.hcHeading {
+  width: 100%;
+  /* height: 170px; */
+  margin-bottom: 30px;
+  align-items: flex-end;
+}
+.hcHeading h2 {
+  font-size: 1.4rem;
+  /* font-family: var(--cursive-font); */
+  font-weight: 500;
+  /* color: var(--primary-color); */
+}
+.hcRegisterForm {
+  width: 100%;
+  padding: 10px 25px;
+}
+.hcRegisterForm form {
+  width: 100%;
+}
+.hcInput {
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
+}
+.hcInput input {
+  width: 100%;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 5px;
+  /* border: 1px solid rgb(207, 207, 207); */
+  border: none;
+}
+.hcInput input::placeholder {
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+}
+.hcInput select {
+  width: 95%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+}
+.hcInput select {
+  font-size: 0.9rem;
+  color: rgb(112, 112, 112);
+}
+.hcNextBtn {
+  width: 100%;
+  height: 47px;
+  margin-top: 10px;
+}
+.hcNextBtn button {
+  width: 99%;
+  height: 100%;
+  background: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  box-shadow: var(--box-shadow);
+}
+
+.sec1 {
+  width: 100%;
+  margin-bottom: 300px;
+}
+.sec2 {
+  width: 100%;
+}
+.sec3 {
+  width: 100%;
+}
+.sec4 {
+  width: 100%;
+}

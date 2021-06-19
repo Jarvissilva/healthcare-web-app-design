@@ -1,0 +1,117 @@
+.header {
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  margin-bottom: 5px;
+}
+.headerTitle {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-start;
+}
+.headerTitle h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.headerBtn {
+  width: 50%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.tabSec {
+  height: 50px;
+  padding: 5px 0px;
+  padding-left: 15px;
+  justify-content: flex-start;
+  overflow-x: auto;
+  overflow-y: hidden;
+  z-index: 2;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  margin-bottom: 15px;
+}
+.tabSec::-webkit-scrollbar {
+  display: none;
+}
+.tab {
+  max-width: 100%;
+  height: 36px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 0 0px;
+  background: #eeeeee;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+.tabIcon {
+  width: 35px;
+}
+.tab p {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.tab:nth-last-of-type() {
+  margin-right: 10px;
+}
+.activeTab {
+  background: var(--primary-color);
+}
+.activeTab p {
+  color: #fff;
+  font-weight: 500;
+}
+.spacing {
+  min-width: 3px;
+  height: 100%;
+}
+
+.insightSec {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+
+.insightBox {
+  width: 100%;
+  height: 70px;
+  border-radius: 7px;
+  background: var(--primary-color);
+  padding: 10px 15px;
+  margin-bottom: 15px;
+}
+.inBoxTitle {
+  width: 60%;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.inBoxTitle h3 {
+  color: #fff;
+}
+.inBoxCount {
+  width: 30%;
+  justify-content: flex-end;
+}
+.inBoxCount h3 {
+  color: #fff;
+}
+.inBoxIcon {
+  width: 10%;
+}
+
+.overviewSec {
+  width: 100%;
+  height: 100%;
+  /* padding: 0 15px; */
+}
+.notifSec {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
+.settingSec {
+  width: 100%;
+  height: 100%;
+  padding: 0 15px;
+}
